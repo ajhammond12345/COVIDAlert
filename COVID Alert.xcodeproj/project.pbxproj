@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DB91F5246C5AB5005AB7F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB91F4246C5AB5005AB7F4 /* AppDelegate.swift */; };
+		70DB91F7246C5AB5005AB7F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB91F6246C5AB5005AB7F4 /* SceneDelegate.swift */; };
+		70DB91F9246C5AB5005AB7F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB91F8246C5AB5005AB7F4 /* ViewController.swift */; };
+		70DB91FC246C5AB5005AB7F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DB91FA246C5AB5005AB7F4 /* Main.storyboard */; };
+		70DB91FE246C5AB6005AB7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DB91FD246C5AB6005AB7F4 /* Assets.xcassets */; };
+		70DB9201246C5AB6005AB7F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DB91FF246C5AB6005AB7F4 /* LaunchScreen.storyboard */; };
+		70DB920C246C5AB6005AB7F4 /* COVID_AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB920B246C5AB6005AB7F4 /* COVID_AlertTests.swift */; };
+		70DB9217246C5AB6005AB7F4 /* COVID_AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB9216246C5AB6005AB7F4 /* COVID_AlertUITests.swift */; };
+		70DB921C246C5AB6005AB7F4 /* COVID Alert WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 70DB921B246C5AB6005AB7F4 /* COVID Alert WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70DB9222246C5AB6005AB7F4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70DB9220246C5AB6005AB7F4 /* Interface.storyboard */; };
+		70DB9224246C5AB7005AB7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DB9223246C5AB7005AB7F4 /* Assets.xcassets */; };
+		70DB922B246C5AB7005AB7F4 /* COVID Alert WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70DB922A246C5AB7005AB7F4 /* COVID Alert WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70DB9230246C5AB7005AB7F4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB922F246C5AB7005AB7F4 /* InterfaceController.swift */; };
+		70DB9232246C5AB7005AB7F4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB9231246C5AB7005AB7F4 /* ExtensionDelegate.swift */; };
+		70DB9234246C5AB7005AB7F4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DB9233246C5AB7005AB7F4 /* NotificationController.swift */; };
+		70DB9236246C5AB8005AB7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70DB9235246C5AB8005AB7F4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70DB9208246C5AB6005AB7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DB91E9246C5AB5005AB7F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DB91F0246C5AB5005AB7F4;
+			remoteInfo = "COVID Alert";
+		};
+		70DB9213246C5AB6005AB7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DB91E9246C5AB5005AB7F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DB91F0246C5AB5005AB7F4;
+			remoteInfo = "COVID Alert";
+		};
+		70DB921D246C5AB6005AB7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DB91E9246C5AB5005AB7F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DB921A246C5AB6005AB7F4;
+			remoteInfo = "COVID Alert WatchKit App";
+		};
+		70DB922C246C5AB7005AB7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70DB91E9246C5AB5005AB7F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DB9229246C5AB7005AB7F4;
+			remoteInfo = "COVID Alert WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70DB923E246C5AB8005AB7F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70DB922B246C5AB7005AB7F4 /* COVID Alert WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9242246C5AB8005AB7F4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				70DB921C246C5AB6005AB7F4 /* COVID Alert WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70DB91F1246C5AB5005AB7F4 /* COVID Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DB91F4246C5AB5005AB7F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70DB91F6246C5AB5005AB7F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		70DB91F8246C5AB5005AB7F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70DB91FB246C5AB5005AB7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70DB91FD246C5AB6005AB7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70DB9200246C5AB6005AB7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70DB9202246C5AB6005AB7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DB9207246C5AB6005AB7F4 /* COVID AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID AlertTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DB920B246C5AB6005AB7F4 /* COVID_AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_AlertTests.swift; sourceTree = "<group>"; };
+		70DB920D246C5AB6005AB7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DB9212246C5AB6005AB7F4 /* COVID AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "COVID AlertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DB9216246C5AB6005AB7F4 /* COVID_AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVID_AlertUITests.swift; sourceTree = "<group>"; };
+		70DB9218246C5AB6005AB7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DB921B246C5AB6005AB7F4 /* COVID Alert WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COVID Alert WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DB9221246C5AB6005AB7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		70DB9223246C5AB7005AB7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70DB9225246C5AB7005AB7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DB922A246C5AB7005AB7F4 /* COVID Alert WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "COVID Alert WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DB922F246C5AB7005AB7F4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		70DB9231246C5AB7005AB7F4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		70DB9233246C5AB7005AB7F4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		70DB9235246C5AB8005AB7F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70DB9237246C5AB8005AB7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DB9238246C5AB8005AB7F4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70DB91EE246C5AB5005AB7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9204246C5AB6005AB7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB920F246C5AB6005AB7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9227246C5AB7005AB7F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DB91E8246C5AB5005AB7F4 = {
+			isa = PBXGroup;
+			children = (
+				70DB91F3246C5AB5005AB7F4 /* COVID Alert */,
+				70DB920A246C5AB6005AB7F4 /* COVID AlertTests */,
+				70DB9215246C5AB6005AB7F4 /* COVID AlertUITests */,
+				70DB921F246C5AB6005AB7F4 /* COVID Alert WatchKit App */,
+				70DB922E246C5AB7005AB7F4 /* COVID Alert WatchKit Extension */,
+				70DB91F2246C5AB5005AB7F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70DB91F2246C5AB5005AB7F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DB91F1246C5AB5005AB7F4 /* COVID Alert.app */,
+				70DB9207246C5AB6005AB7F4 /* COVID AlertTests.xctest */,
+				70DB9212246C5AB6005AB7F4 /* COVID AlertUITests.xctest */,
+				70DB921B246C5AB6005AB7F4 /* COVID Alert WatchKit App.app */,
+				70DB922A246C5AB7005AB7F4 /* COVID Alert WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DB91F3246C5AB5005AB7F4 /* COVID Alert */ = {
+			isa = PBXGroup;
+			children = (
+				70DB91F4246C5AB5005AB7F4 /* AppDelegate.swift */,
+				70DB91F6246C5AB5005AB7F4 /* SceneDelegate.swift */,
+				70DB91F8246C5AB5005AB7F4 /* ViewController.swift */,
+				70DB91FA246C5AB5005AB7F4 /* Main.storyboard */,
+				70DB91FD246C5AB6005AB7F4 /* Assets.xcassets */,
+				70DB91FF246C5AB6005AB7F4 /* LaunchScreen.storyboard */,
+				70DB9202246C5AB6005AB7F4 /* Info.plist */,
+			);
+			path = "COVID Alert";
+			sourceTree = "<group>";
+		};
+		70DB920A246C5AB6005AB7F4 /* COVID AlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				70DB920B246C5AB6005AB7F4 /* COVID_AlertTests.swift */,
+				70DB920D246C5AB6005AB7F4 /* Info.plist */,
+			);
+			path = "COVID AlertTests";
+			sourceTree = "<group>";
+		};
+		70DB9215246C5AB6005AB7F4 /* COVID AlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70DB9216246C5AB6005AB7F4 /* COVID_AlertUITests.swift */,
+				70DB9218246C5AB6005AB7F4 /* Info.plist */,
+			);
+			path = "COVID AlertUITests";
+			sourceTree = "<group>";
+		};
+		70DB921F246C5AB6005AB7F4 /* COVID Alert WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				70DB9220246C5AB6005AB7F4 /* Interface.storyboard */,
+				70DB9223246C5AB7005AB7F4 /* Assets.xcassets */,
+				70DB9225246C5AB7005AB7F4 /* Info.plist */,
+			);
+			path = "COVID Alert WatchKit App";
+			sourceTree = "<group>";
+		};
+		70DB922E246C5AB7005AB7F4 /* COVID Alert WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70DB922F246C5AB7005AB7F4 /* InterfaceController.swift */,
+				70DB9231246C5AB7005AB7F4 /* ExtensionDelegate.swift */,
+				70DB9233246C5AB7005AB7F4 /* NotificationController.swift */,
+				70DB9235246C5AB8005AB7F4 /* Assets.xcassets */,
+				70DB9237246C5AB8005AB7F4 /* Info.plist */,
+				70DB9238246C5AB8005AB7F4 /* PushNotificationPayload.apns */,
+			);
+			path = "COVID Alert WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70DB91F0246C5AB5005AB7F4 /* COVID Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DB9243246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID Alert" */;
+			buildPhases = (
+				70DB91ED246C5AB5005AB7F4 /* Sources */,
+				70DB91EE246C5AB5005AB7F4 /* Frameworks */,
+				70DB91EF246C5AB5005AB7F4 /* Resources */,
+				70DB9242246C5AB8005AB7F4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DB921E246C5AB6005AB7F4 /* PBXTargetDependency */,
+			);
+			name = "COVID Alert";
+			productName = "COVID Alert";
+			productReference = 70DB91F1246C5AB5005AB7F4 /* COVID Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70DB9206246C5AB6005AB7F4 /* COVID AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DB9246246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID AlertTests" */;
+			buildPhases = (
+				70DB9203246C5AB6005AB7F4 /* Sources */,
+				70DB9204246C5AB6005AB7F4 /* Frameworks */,
+				70DB9205246C5AB6005AB7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DB9209246C5AB6005AB7F4 /* PBXTargetDependency */,
+			);
+			name = "COVID AlertTests";
+			productName = "COVID AlertTests";
+			productReference = 70DB9207246C5AB6005AB7F4 /* COVID AlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70DB9211246C5AB6005AB7F4 /* COVID AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DB9249246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID AlertUITests" */;
+			buildPhases = (
+				70DB920E246C5AB6005AB7F4 /* Sources */,
+				70DB920F246C5AB6005AB7F4 /* Frameworks */,
+				70DB9210246C5AB6005AB7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DB9214246C5AB6005AB7F4 /* PBXTargetDependency */,
+			);
+			name = "COVID AlertUITests";
+			productName = "COVID AlertUITests";
+			productReference = 70DB9212246C5AB6005AB7F4 /* COVID AlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		70DB921A246C5AB6005AB7F4 /* COVID Alert WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DB923F246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID Alert WatchKit App" */;
+			buildPhases = (
+				70DB9219246C5AB6005AB7F4 /* Resources */,
+				70DB923E246C5AB8005AB7F4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70DB922D246C5AB7005AB7F4 /* PBXTargetDependency */,
+			);
+			name = "COVID Alert WatchKit App";
+			productName = "COVID Alert WatchKit App";
+			productReference = 70DB921B246C5AB6005AB7F4 /* COVID Alert WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		70DB9229246C5AB7005AB7F4 /* COVID Alert WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DB923B246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID Alert WatchKit Extension" */;
+			buildPhases = (
+				70DB9226246C5AB7005AB7F4 /* Sources */,
+				70DB9227246C5AB7005AB7F4 /* Frameworks */,
+				70DB9228246C5AB7005AB7F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COVID Alert WatchKit Extension";
+			productName = "COVID Alert WatchKit Extension";
+			productReference = 70DB922A246C5AB7005AB7F4 /* COVID Alert WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70DB91E9246C5AB5005AB7F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = aajjr;
+				TargetAttributes = {
+					70DB91F0246C5AB5005AB7F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					70DB9206246C5AB6005AB7F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 70DB91F0246C5AB5005AB7F4;
+					};
+					70DB9211246C5AB6005AB7F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 70DB91F0246C5AB5005AB7F4;
+					};
+					70DB921A246C5AB6005AB7F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					70DB9229246C5AB7005AB7F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 70DB91EC246C5AB5005AB7F4 /* Build configuration list for PBXProject "COVID Alert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70DB91E8246C5AB5005AB7F4;
+			productRefGroup = 70DB91F2246C5AB5005AB7F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70DB91F0246C5AB5005AB7F4 /* COVID Alert */,
+				70DB9206246C5AB6005AB7F4 /* COVID AlertTests */,
+				70DB9211246C5AB6005AB7F4 /* COVID AlertUITests */,
+				70DB921A246C5AB6005AB7F4 /* COVID Alert WatchKit App */,
+				70DB9229246C5AB7005AB7F4 /* COVID Alert WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70DB91EF246C5AB5005AB7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB9201246C5AB6005AB7F4 /* LaunchScreen.storyboard in Resources */,
+				70DB91FE246C5AB6005AB7F4 /* Assets.xcassets in Resources */,
+				70DB91FC246C5AB5005AB7F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9205246C5AB6005AB7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9210246C5AB6005AB7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9219246C5AB6005AB7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB9224246C5AB7005AB7F4 /* Assets.xcassets in Resources */,
+				70DB9222246C5AB6005AB7F4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9228246C5AB7005AB7F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB9236246C5AB8005AB7F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70DB91ED246C5AB5005AB7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB91F9246C5AB5005AB7F4 /* ViewController.swift in Sources */,
+				70DB91F5246C5AB5005AB7F4 /* AppDelegate.swift in Sources */,
+				70DB91F7246C5AB5005AB7F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9203246C5AB6005AB7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB920C246C5AB6005AB7F4 /* COVID_AlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB920E246C5AB6005AB7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB9217246C5AB6005AB7F4 /* COVID_AlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DB9226246C5AB7005AB7F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DB9234246C5AB7005AB7F4 /* NotificationController.swift in Sources */,
+				70DB9232246C5AB7005AB7F4 /* ExtensionDelegate.swift in Sources */,
+				70DB9230246C5AB7005AB7F4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70DB9209246C5AB6005AB7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DB91F0246C5AB5005AB7F4 /* COVID Alert */;
+			targetProxy = 70DB9208246C5AB6005AB7F4 /* PBXContainerItemProxy */;
+		};
+		70DB9214246C5AB6005AB7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DB91F0246C5AB5005AB7F4 /* COVID Alert */;
+			targetProxy = 70DB9213246C5AB6005AB7F4 /* PBXContainerItemProxy */;
+		};
+		70DB921E246C5AB6005AB7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DB921A246C5AB6005AB7F4 /* COVID Alert WatchKit App */;
+			targetProxy = 70DB921D246C5AB6005AB7F4 /* PBXContainerItemProxy */;
+		};
+		70DB922D246C5AB7005AB7F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DB9229246C5AB7005AB7F4 /* COVID Alert WatchKit Extension */;
+			targetProxy = 70DB922C246C5AB7005AB7F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70DB91FA246C5AB5005AB7F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DB91FB246C5AB5005AB7F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70DB91FF246C5AB6005AB7F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DB9200246C5AB6005AB7F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		70DB9220246C5AB6005AB7F4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70DB9221246C5AB6005AB7F4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70DB9239246C5AB8005AB7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70DB923A246C5AB8005AB7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70DB923C246C5AB8005AB7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID Alert WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-Alert.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		70DB923D246C5AB8005AB7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID Alert WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-Alert.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		70DB9240246C5AB8005AB7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				IBSC_MODULE = COVID_Alert_WatchKit_Extension;
+				INFOPLIST_FILE = "COVID Alert WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-Alert.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		70DB9241246C5AB8005AB7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				IBSC_MODULE = COVID_Alert_WatchKit_Extension;
+				INFOPLIST_FILE = "COVID Alert WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-Alert.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		70DB9244246C5AB8005AB7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID Alert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70DB9245246C5AB8005AB7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID Alert/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70DB9247246C5AB8005AB7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID AlertTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID Alert.app/COVID Alert";
+			};
+			name = Debug;
+		};
+		70DB9248246C5AB8005AB7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID AlertTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COVID Alert.app/COVID Alert";
+			};
+			name = Release;
+		};
+		70DB924A246C5AB8005AB7F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID AlertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COVID Alert";
+			};
+			name = Debug;
+		};
+		70DB924B246C5AB8005AB7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				INFOPLIST_FILE = "COVID AlertUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aajjr.COVID-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "COVID Alert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70DB91EC246C5AB5005AB7F4 /* Build configuration list for PBXProject "COVID Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DB9239246C5AB8005AB7F4 /* Debug */,
+				70DB923A246C5AB8005AB7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DB923B246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID Alert WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DB923C246C5AB8005AB7F4 /* Debug */,
+				70DB923D246C5AB8005AB7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DB923F246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID Alert WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DB9240246C5AB8005AB7F4 /* Debug */,
+				70DB9241246C5AB8005AB7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DB9243246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DB9244246C5AB8005AB7F4 /* Debug */,
+				70DB9245246C5AB8005AB7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DB9246246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DB9247246C5AB8005AB7F4 /* Debug */,
+				70DB9248246C5AB8005AB7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DB9249246C5AB8005AB7F4 /* Build configuration list for PBXNativeTarget "COVID AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DB924A246C5AB8005AB7F4 /* Debug */,
+				70DB924B246C5AB8005AB7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70DB91E9246C5AB5005AB7F4 /* Project object */;
+}
