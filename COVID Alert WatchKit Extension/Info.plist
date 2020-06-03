@@ -34,5 +34,9 @@
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 	<key>WKRunsIndependentlyOfCompanionApp</key>
 	<true/>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Uses heart rate data to monitor for COVID-19</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Uses heart rate data to monitor for COVID-19</string>
 </dict>
 </plist>
